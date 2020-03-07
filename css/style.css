@@ -9,8 +9,8 @@ body {
     max-height: 280px;
     min-width: 360x;
     margin: 20px auto;
-    background-color: #a52a2a;
-    padding: 25px 10px 300px 20px;
+    background-color: #971313;
+    padding: 15px 10px 300px 20px;
 }
 
 .navigation {
@@ -30,17 +30,14 @@ body {
     padding-bottom: 5px;
 }
 
-img {
+.navigation img {
     margin: 20px;
     margin-bottom: 3px;
 }
 
 .header a {
     text-align: center;
-    letter-spacing: 5px;
-    font-size: 12px;
-    border-bottom: 1px solid white;
-    border-top: 1px solid white;
+   
 }
 
 .header {
@@ -102,6 +99,11 @@ h6 {
     text-align: justify;
 }
 
+h6 a {
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+}
+
 .article {
   display: flex;  
 }
@@ -124,10 +126,6 @@ h6 {
     text-decoration: underline;
 }
 
-.header a:hover {
-    color:  orangered;
-    border-bottom: 1px solid  orangered;;
-    border-top: 1px solid  orangered;;
-}
+
 
 
